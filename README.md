@@ -1,6 +1,6 @@
 # scholar_md
 
-Scholar md is a simple CLI tool for converting md documents to docx (Word) files based on GOST standards
+Scholar md is a simple CLI tool for converting md documents to docx (Word) files based on GOST standards.
 
 ## Idea
 
@@ -39,7 +39,7 @@ footnote = ["Times New Roman", 12]
 
 ```md
 First paragraph..
-% include("parts/")
+% include("parts/1.md")
 
 Second paragraph.
 
@@ -49,5 +49,9 @@ Second paragraph.
 
 % break()
 
-First paragraph on second page.
+First paragraph on second page. Code example:
+\`\`\`python
+print("Hello, World!")
+\`\`\`
+
 ```
