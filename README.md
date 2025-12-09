@@ -13,7 +13,7 @@ simple text writing and another features which you can get using markdown syntax
 Of course, each document has unqiue settings like a special fonts, text setups, footnotes, fields, etc.
 to respond on this requirements we using one configuration file which describes naming, including and special configs.
 
-TOML file examples:
+TOML file `scholar.toml` example:
 
 ```toml
 [project]
