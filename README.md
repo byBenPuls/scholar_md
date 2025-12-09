@@ -37,7 +37,7 @@ footnote = ["Times New Roman", 12]
 
 ## Syntax
 
-```md
+````md
 First paragraph..
 % include("parts/1.md")
 
@@ -50,8 +50,8 @@ Second paragraph.
 % break()
 
 First paragraph on second page. Code example:
-\`\`\`python
+```python
 print("Hello, World!")
-\`\`\`
-
 ```
+
+````
